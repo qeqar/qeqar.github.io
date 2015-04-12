@@ -1,6 +1,5 @@
 ---
 title: jekyll test
-layout: post
 ---
 
 # Title
