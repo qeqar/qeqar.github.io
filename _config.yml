@@ -17,5 +17,7 @@ author:
   name:              Mark Eisenblaetter
   url:               https://twitter.com/qeqar
 
+exclude: [vendor]
+
 # Custom vars
 version:             1.0.0
