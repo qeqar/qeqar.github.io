@@ -1,14 +1,12 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://qeqar.github.io
-baseurl:             'qeqar.github.io'
+title:               Marks's Blog
+tagline:             'Meine Ergüsse'
+description:         'Disclaimer! Wenn ihr Grammar Nazis seit, euch bei Rechtschreibfehlern der Hut hoch geht oder ihr kein Bock habt wirre Sätze zu entschüsseln. Dann seit ihr hier nicht Richtig, außer ihr stellt korregierende Merge Request'
+url:                 http://www.nitrust.de
+baseurl:             'www.nitrust.de'
 paginate:            5
 
 # About/contact
