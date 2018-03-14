@@ -3,7 +3,7 @@ layout: post
 title: Programmieren lernen
 ---
 
-![Book]( https://imagery.pragprog.com/products/461/bhwb.jpg?1454000572 'Exercises for Programmers'){: height="100px" width="50px"}
+![Book]( https://imagery.pragprog.com/products/461/bhwb.jpg?1454000572 'Exercises for Programmers'){: height="200px" width="130px"}
 
 Wo ich immer noch schwierigkeiten habe ist mit dem Programmieren! Scripten klappt super,
 aber Programme? da hackt es noch!
