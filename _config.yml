@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Marks's Blog
+title:               Mark's Blog
 tagline:             'Meine Ergüsse'
 description:         'Disclaimer! Wenn ihr Grammar Nazis seit, euch bei Rechtschreibfehlern der Hut hoch geht oder ihr kein Bock habt wirre Sätze zu entschüsseln. Dann seit ihr hier nicht Richtig, außer ihr stellt korregierende Merge Request'
-url:                 http://www.nitrust.de
-baseurl:             ''
+url:                 www.nitrust.de
+baseurl:             '/'
 paginate:            5
 
 # About/contact
@@ -18,3 +18,4 @@ exclude: [vendor]
 
 # Custom vars
 version:             1.0.0
+github.repo:         https://github.com/qeqar/qeqar.github.io
