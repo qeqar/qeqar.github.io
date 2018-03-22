@@ -22,8 +22,8 @@ Viel später bin ich über einen Kollegen auf *Doctests* gestoßen. Hier wird in
 def check_days(values):
     """
     >>> import check
-    >>> print check.check_days([{'bucket': 'communication_email_0001', 'date': '2018-01-01'}])
-    (True, '2018-01-01: no objects to sync for communication_email_0001\\n')
+    >>> print check.check_days([{'bucket': 'bucket_name', 'date': '2018-01-01'}])
+    (True, '2018-01-01: no objects to sync for bucket_name\\n')
     """
 ```
 Wenn das Programm jetzt mit `python -mdoctest script.py` aufgerufen wird, wird nicht der Code ausgeführt sondern die Tests.
@@ -103,12 +103,12 @@ def check_days(values):
     :Example:
 
     >>> import check
-    >>> print check.check_days([{'bucket': 'communication_email_0001', 'date': '2018-01-01'}])
-    (True, '2018-01-01: no objects to sync for communication_email_0001\\n')
-    >>> print check.check_days([{'bucket': 'communication_email_0001', 'date': '2018-01-01', 'objectcount': 8, 'synccount' : 8}])
-    (True, '2018-01-01: everything synced in communication_email_0001\\n')
-    >>> print check.check_days([{'bucket': 'communication_email_0001', 'date': '2018-01-01', 'objectcount': 8, 'synccount' : 7}])
-    (False, '2018-01-01: ERROR only 7 objects form 8 synced in communication_email_0001\\n')
+    >>> print check.check_days([{'bucket': 'bucket_name', 'date': '2018-01-01'}])
+    (True, '2018-01-01: no objects to sync for bucket_name\\n')
+    >>> print check.check_days([{'bucket': 'bucket_name', 'date': '2018-01-01', 'objectcount': 8, 'synccount' : 8}])
+    (True, '2018-01-01: everything synced in bucket_name\\n')
+    >>> print check.check_days([{'bucket': 'bucket_name', 'date': '2018-01-01', 'objectcount': 8, 'synccount' : 7}])
+    (False, '2018-01-01: ERROR only 7 objects form 8 synced in bucket_name\\n')
     """
 ```
 
