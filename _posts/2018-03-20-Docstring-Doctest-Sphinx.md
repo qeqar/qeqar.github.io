@@ -114,7 +114,7 @@ def check_days(values):
 
 Wir haben einen Dokumentierten Code, einen Test und Sphinx kann aus der Kombination auch noch automagisch eine Module Dokumentation machen.
 
-<img src="images/sphinx.png" alt="generated Sphinx doku" class="inline"/>
+<img src="/images/sphinx.png" alt="generated Sphinx doku" class="inline"/>
 
 
 
